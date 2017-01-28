@@ -19,7 +19,22 @@ namespace MudrakPatel_Lab03
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (String.IsNullOrWhiteSpace(userControl1.userNameTextBox.Text) ||
+                    String.IsNullOrWhiteSpace(userControl1.passwordTextBox.Text))
+                {
+                    MessageBox.Show("All textboxes are mandatory to fill.","Validation error!");
+                }else
+                {
+                    userNameDisplayLabel.Text = userControl1.userNameTextBox.Text;
+                    passwordDisplayLabel.Text = userControl1.passwordTextBox.Text;
+                }
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message,"Exception encountered!");
+            }
         }
     }
 }
