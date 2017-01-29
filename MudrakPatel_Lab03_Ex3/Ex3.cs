@@ -16,5 +16,10 @@ namespace MudrakPatel_Lab03_Ex3
         {
             InitializeComponent();
         }
+
+        private void coursesTreeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
     }
 }

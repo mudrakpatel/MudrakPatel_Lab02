@@ -83,6 +83,7 @@
             treeNode12});
             this.coursesTreeView.Size = new System.Drawing.Size(192, 175);
             this.coursesTreeView.TabIndex = 0;
+            this.coursesTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.coursesTreeView_AfterSelect);
             // 
             // coursesListPanel
             // 
@@ -103,11 +104,14 @@
             this.course4Header,
             this.course5Header,
             this.course6Header});
-            this.coursesListView.Location = new System.Drawing.Point(4, 4);
+            this.coursesListView.GridLines = true;
+            this.coursesListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.coursesListView.Location = new System.Drawing.Point(7, 4);
             this.coursesListView.Name = "coursesListView";
             this.coursesListView.Size = new System.Drawing.Size(600, 175);
             this.coursesListView.TabIndex = 0;
             this.coursesListView.UseCompatibleStateImageBehavior = false;
+            this.coursesListView.View = System.Windows.Forms.View.Details;
             // 
             // semesterColumnHeader
             // 
@@ -136,6 +140,7 @@
             // course6Header
             // 
             this.course6Header.Text = "6";
+            this.course6Header.Width = 50;
             // 
             // Ex3
             // 
