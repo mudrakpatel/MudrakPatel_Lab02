@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MudrakPatel_Lab03_Ex4
 {
-    public delegate void MyEventHandler();
-    class MyEvent
+    class MyEventTest
     {
-        public static void showUserName()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Welcome user.");
+            MyEventHandler handler1 = new MyEventHandler(MyEvent.showUserName);
+            handler1.Invoke();
         }
     }
 }
