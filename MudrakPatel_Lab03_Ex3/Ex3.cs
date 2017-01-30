@@ -21,6 +21,8 @@ namespace MudrakPatel_Lab03_Ex3
         {
             if (coursesTreeView.SelectedNode.Text == "SETechnician")
             {
+                coursesListView.Items.Clear();
+                //
                 ListViewItem listViewItem = new ListViewItem("SEM1");
                 listViewItem.SubItems.Add("COMP100");
                 listViewItem.SubItems.Add("COMP120");
@@ -58,6 +60,8 @@ namespace MudrakPatel_Lab03_Ex3
                 coursesListView.Items.Add(listViewItem4);
             } else if (coursesTreeView.SelectedNode.Text == "SET")
             {
+                coursesListView.Items.Clear();
+                //
                 ListViewItem listViewItem = new ListViewItem("SEM1");
                 listViewItem.SubItems.Add("CNET125");
                 listViewItem.SubItems.Add("CNET330");
@@ -94,6 +98,9 @@ namespace MudrakPatel_Lab03_Ex3
                 listViewItem4.SubItems.Add("MATH214");
                 coursesListView.Items.Add(listViewItem4);
             } else if (coursesTreeView.SelectedNode.Text == "SET-IG"){
+
+                coursesListView.Items.Clear();
+                //
                 ListViewItem listViewItem = new ListViewItem("SEM1");
                 listViewItem.SubItems.Add("CNET127");
                 listViewItem.SubItems.Add("CNET332");
@@ -130,6 +137,9 @@ namespace MudrakPatel_Lab03_Ex3
                 listViewItem4.SubItems.Add("MATH216");
                 coursesListView.Items.Add(listViewItem4);
             } else if (coursesTreeView.SelectedNode.Text == "HIT"){
+
+                coursesListView.Items.Clear();
+                //
                 ListViewItem listViewItem = new ListViewItem("SEM1");
                 listViewItem.SubItems.Add("HIT129");
                 listViewItem.SubItems.Add("HIT334");
@@ -151,11 +161,20 @@ namespace MudrakPatel_Lab03_Ex3
                 ListViewItem listViewItem3 = new ListViewItem("SEM3");
                 listViewItem3.SubItems.Add("HIT131");
                 listViewItem3.SubItems.Add("HIT336");
-                listViewItem3.SubItems.Add("HIT217");
-                listViewItem3.SubItems.Add("HIT316");
+                listViewItem3.SubItems.Add("HIT219");
+                listViewItem3.SubItems.Add("HIT318");
                 listViewItem3.SubItems.Add("TechElec");
-                listViewItem3.SubItems.Add("HIT216");
+                listViewItem3.SubItems.Add("HIT218");
                 coursesListView.Items.Add(listViewItem3);
+                //
+                ListViewItem listViewItem4 = new ListViewItem("SEM4");
+                listViewItem4.SubItems.Add("HIT132");
+                listViewItem4.SubItems.Add("HIT337");
+                listViewItem4.SubItems.Add("HIT220");
+                listViewItem4.SubItems.Add("HIT319");
+                listViewItem4.SubItems.Add("TechElec");
+                listViewItem4.SubItems.Add("HIT219");
+                coursesListView.Items.Add(listViewItem4);
             }
         }
     }
