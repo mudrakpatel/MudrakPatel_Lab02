@@ -10,7 +10,7 @@ namespace MudrakPatel_Lab03_Ex4
     {
         static void Main(string[] args)
         {
-            MyEventHandler handler1 = new MyEventHandler(MyEvent.showUserName);
+            MyEventHandler handler1 = new MyEventHandler(MyEvent.OnMyClick);
             handler1.Invoke();
         }
     }

@@ -10,9 +10,9 @@ namespace MudrakPatel_Lab03_Ex4
     public delegate void MyEventHandler();
     class MyEvent
     {
-        public static void showUserName()
+        public static void OnMyClick()
         {
-            Console.WriteLine("Welcome user.");
+            Console.WriteLine("\n\n\n\t\tEvent handeled successfully!\n\n\n");
         }
     }
 }
