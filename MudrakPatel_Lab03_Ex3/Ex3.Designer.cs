@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("SETechnician");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("SET");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("SET-IG");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("HIT");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("ICET", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("College", new System.Windows.Forms.TreeNode[] {
-            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("SETechnician");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("SET");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("SET-IG");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("HIT");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("ICET", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode14,
+            treeNode15,
+            treeNode16});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("College", new System.Windows.Forms.TreeNode[] {
+            treeNode17});
             this.courserPanel = new System.Windows.Forms.Panel();
             this.coursesTreeView = new System.Windows.Forms.TreeView();
             this.coursesListPanel = new System.Windows.Forms.Panel();
@@ -67,20 +67,20 @@
             // 
             this.coursesTreeView.Location = new System.Drawing.Point(4, 4);
             this.coursesTreeView.Name = "coursesTreeView";
-            treeNode7.Name = "seTechnicianChildNode";
-            treeNode7.Text = "SETechnician";
-            treeNode8.Name = "setChildNode";
-            treeNode8.Text = "SET";
-            treeNode9.Name = "setIgChildNode";
-            treeNode9.Text = "SET-IG";
-            treeNode10.Name = "hitChildNode";
-            treeNode10.Text = "HIT";
-            treeNode11.Name = "icetChildNode";
-            treeNode11.Text = "ICET";
-            treeNode12.Name = "collegeMaainNode";
-            treeNode12.Text = "College";
+            treeNode13.Name = "seTechnicianChildNode";
+            treeNode13.Text = "SETechnician";
+            treeNode14.Name = "setChildNode";
+            treeNode14.Text = "SET";
+            treeNode15.Name = "setIgChildNode";
+            treeNode15.Text = "SET-IG";
+            treeNode16.Name = "hitChildNode";
+            treeNode16.Text = "HIT";
+            treeNode17.Name = "icetChildNode";
+            treeNode17.Text = "ICET";
+            treeNode18.Name = "collegeMaainNode";
+            treeNode18.Text = "College";
             this.coursesTreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode12});
+            treeNode18});
             this.coursesTreeView.Size = new System.Drawing.Size(192, 175);
             this.coursesTreeView.TabIndex = 0;
             this.coursesTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.coursesTreeView_AfterSelect);
@@ -140,7 +140,7 @@
             // course6Header
             // 
             this.course6Header.Text = "6";
-            this.course6Header.Width = 50;
+            this.course6Header.Width = 61;
             // 
             // Ex3
             // 
