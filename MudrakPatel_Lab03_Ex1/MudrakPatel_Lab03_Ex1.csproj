@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{344978FD-8B48-4699-9CAB-647977F7520E}</ProjectGuid>
+    <ProjectGuid>{C194F5CD-0A46-4883-A091-D82E6AD2BB40}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MudrakPatel_Lab03_Ex1</RootNamespace>
