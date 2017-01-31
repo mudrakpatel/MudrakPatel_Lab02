@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MudrakPatel_Lab03_Ex1
 {
-    public partial class Form1 : Form
+    public partial class tabbedForm : Form
     {
-        public Form1()
+        public tabbedForm()
         {
             InitializeComponent();
         }
