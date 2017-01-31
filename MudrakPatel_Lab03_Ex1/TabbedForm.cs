@@ -16,5 +16,10 @@ namespace MudrakPatel_Lab03_Ex1
         {
             InitializeComponent();
         }
+
+        private void checkedListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
